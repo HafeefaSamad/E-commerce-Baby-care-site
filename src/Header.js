@@ -1,8 +1,8 @@
 // Header.js
 import React, {  useContext } from 'react';
-import { Button, Container, Navbar, Nav, Form, FormControl } from 'react-bootstrap';
+import {  Container, Navbar, Nav } from 'react-bootstrap';
 import logo from './Assets/logo1.png';
-import { AiOutlineSearch, AiFillHome } from 'react-icons/ai';
+import {  AiFillHome } from 'react-icons/ai';
 import { CgShoppingCart } from 'react-icons/cg';
 import { RiAdminFill } from 'react-icons/ri';
 import { MdLogin, MdLogout } from 'react-icons/md';

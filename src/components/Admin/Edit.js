@@ -27,7 +27,7 @@ const Edit = () => {
     }
 
     const update = product.map((item)=>
-        item.id == parseInt(id)? subButton : item
+        item.id === parseInt(id)? subButton : item
         )
         setProduct(update)
         navigate('/product')

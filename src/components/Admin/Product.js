@@ -30,7 +30,7 @@ const Product = () => {
                         <tr>
                             <td>{item.id}</td>
                             <td>{item.productName}</td>
-                            <td><img style={{height:'3rem'}} src={item.productImage} /></td>
+                            <td><img alt='' style={{height:'3rem'}} src={item.productImage} /></td>
                             <td>{item.Price}</td>
                             <td >
                                <Link to={`/edit/${item.id}`}><Button className='mb-2 '>Edit</Button></Link>

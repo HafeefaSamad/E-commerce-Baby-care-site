@@ -15,6 +15,9 @@ const Shop = () => {
     else if (item.productName.toLowerCase().includes(search.toLowerCase())){
       return item;
     }
+    else{
+      return '';
+    }
   })
 
   return (

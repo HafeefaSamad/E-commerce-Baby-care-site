@@ -1,0 +1,81 @@
+body{
+margin: 0;
+padding: 0;
+max-width: 100%;
+}
+.nav-menu,.nav-icons, .search, .logo{
+  list-style-type: none;
+}
+
+.logo{
+  width: 18vh;
+}
+
+.logo img {
+  width: 120px;
+}
+
+
+.nav-icons {
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+}
+
+.nav-link {
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.nav-link:hover {
+  transform: scale(1.1);
+}
+.nav-icons{
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+ .login .logout:hover{
+  transform: scale(1.1);
+}
+ .cart :hover{
+  transform: scale(1.1);
+}
+ .admin :hover{
+  transform: scale(1.1);
+}
+
+
+@media (min-width: 768px) {
+  .navbar .navbar-brand {
+    display: flex;
+    align-items: center;
+  }
+
+  .navbar-nav .nav-link {
+    margin: 0 15px;
+  }
+
+  .navbar-toggler {
+    display: none;
+  }
+
+  .navbar-collapse {
+    justify-content: space-between;
+  }
+}
+
+@media (max-width: 767px) {
+  .navbar-toggler {
+    display: block;
+  }
+
+  .navbar-collapse {
+    display: none;
+  }
+
+  .navbar-collapse.show {
+    display: block;
+  }
+}
+

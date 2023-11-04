@@ -1,0 +1,22 @@
+
+.card:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+  }
+
+  .search{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20vh;
+    
+    }
+
+  .search-btn{
+    width:3rem;
+    border-radius: 0.5rem;
+    height:3rem;
+    
+  }
+  .search-bar{
+    margin-top: 0.7rem;
+  }

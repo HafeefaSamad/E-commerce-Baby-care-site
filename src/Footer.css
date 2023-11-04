@@ -1,0 +1,13 @@
+
+footer{
+    background: rgb(200, 237, 232);
+}
+
+.download img{
+    transition: 0.5s ease;
+}
+
+.download img:hover{
+transform: translateY(-8px);
+}
+

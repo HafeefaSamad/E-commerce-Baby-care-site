@@ -1,0 +1,66 @@
+
+.cart-container {
+    padding: 20px;
+  }
+  
+ 
+  .cart-item {
+    max-width: 18rem;
+    margin: 10px;
+    transition: transform 0.2s ease;
+  }
+  
+  .cart-item:hover {
+    transform: scale(1.05);
+  }
+  
+  .centered-items {
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .quantity-button {
+    font-size: 24px;
+    background: transparent;
+    color: black;
+    cursor: pointer;
+    margin-left: 5px;
+    transition: background-color 0.2s ease;
+  }
+  
+  .quantity-button:hover {
+    background-color: #007bff;
+    color: white;
+  }
+  
+
+  .remove-button {
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+   
+  }
+  .text-center{
+    display: flex;
+    flex-direction: column;
+    width: 8rem; 
+    margin-left: 20vh;
+    align-items: center;
+  }
+  
+  .remove-button:hover {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .text-center .btn-outline-danger {
+    margin-top: 10px;
+    font-size: 18px;
+    transition: background-color 0.2s ease;
+  }
+  
+  .text-center .btn-outline-danger:hover {
+    background-color: #dc3545;
+    color: white;
+  }
+  

@@ -1,0 +1,92 @@
+/* Home.css */
+
+.banner-details {
+    background: url(../Assets/planebg.png);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: left;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-weight: 600;
+    color: black;
+    margin: 10px;
+    font-size: 40px;
+  }
+  
+  h2 {
+    font-weight: 400;
+    color: blue;
+    font-size: 32px;
+    margin: 10px;
+  }
+  
+  span {
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.8); 
+    padding: 10px;
+  }
+  
+  button {
+    padding: 12px 10px;
+    font-size: 14px;
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .button-link {
+    padding: 12px 10px;
+    font-size: 18px;
+    border-radius: 10px;
+    color: white;
+    background: green;
+    text-decoration: none;
+    margin-top: 10px;
+    border: 1px solid transparent;
+    transition: 0.5s ease-in;
+  }
+  
+  .button-link:hover {
+    background: transparent;
+    color: green;
+    border: 1px solid green;
+  }
+  
+  p {
+    font-size: 14px;
+    margin: 10px;
+  }
+
+  @media (max-width: 768px) {
+    .banner-details {
+        background-size: contain; 
+      }
+    
+    h1 {
+      font-size: 28px;
+    }
+  
+    h2 {
+      font-size: 24px;
+    }
+  
+    .button-link {
+      font-size: 16px;
+      padding: 10px 20px;
+    }
+  
+    p {
+      font-size: 12px;
+    }
+  }
+  

@@ -7,14 +7,17 @@ import "./Admin.css";
 const AdminLogin = () => {
   const [adName, setAdname] = useState("");
   const [pswrd, setPswrd] = useState("");
-  const [ setLogin] = useState(false);
+  const [login, setLogin] = useState(false);
 
   const nav = useNavigate();
 
   const handleLogin = () => {
+    
     if (adName === "admin" && pswrd === "admin") {
       setLogin(true);
       nav("/main");
+    }else{
+      setLogin(login)
     }
   };
 

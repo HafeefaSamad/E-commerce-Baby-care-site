@@ -55,10 +55,10 @@ function App() {
             <Route path="/babycare" element={<BabyCare />} />
             <Route path="/bedding" element={<Bedding />} />
           <Route path="/view/:id" element={<ViewProduct />} />
+          <Route path="/cart" element={<Cart />} />
           </Route>
           <Route path="/login" element={<Login />} />
           <Route path="/sign" element={<SignUp />} />
-          <Route path="/cart" element={<Cart />} />
           <Route path="/main" element={<Main />} />
           <Route path="/customers" element={<Customers />} />
           <Route path="/product" element={<Product />} />
